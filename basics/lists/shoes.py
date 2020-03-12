@@ -23,7 +23,7 @@ print(shoes)
 # Removing an item from a list
 del shoes[0]
 print(shoes)
-popped_shoe = shoes.pop() # "pops" off last item in list
+popped_shoe = shoes.pop()  # "pops" off last item in list
 print(shoes)
 print(popped_shoe)
 print(f"The last shoe I owned was a {popped_shoe.title()}.")
@@ -32,4 +32,22 @@ print(f"The first shoe I owned was a {first_owned.title()}.")
 shoes = ['nike', 'reebok', 'adidas', 'puma']
 print(shoes)
 shoes.remove('reebok')
+print(shoes)
+
+# Sorting a list permanently
+shoes = ['nike', 'reebok', 'adidas', 'puma']
+shoes.sort()
+print(shoes)
+shoes.sort(reverse=True)
+print(shoes)
+
+# Sorting a list temporarily
+print("\nHere is the sorted list:")
+print(sorted(shoes))
+
+# Printing list in reverse order
+shoes = ['nike', 'reebok', 'adidas', 'puma']
+print("\nHere is the reverse list:")
+print(shoes)
+shoes.reverse()
 print(shoes)
