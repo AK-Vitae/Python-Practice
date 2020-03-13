@@ -194,3 +194,6 @@ dmypy.json
 
 #Subfolder
 venv/
+
+#Jupyter Notebook
+.ipynb_checkpoints
