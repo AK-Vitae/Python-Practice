@@ -24,7 +24,7 @@ print(squares)
 squares = [pow(value, 2) for value in range(1, 11)]  # using pow() to calculate exponents
 print(squares)
 
-# Basic statistics of a list of numbers without imports
+# Simple statistics of a list of numbers without imports
 print(min(squares))  # min
 print(max(squares))  # max
 print(sum(squares))  # sum
